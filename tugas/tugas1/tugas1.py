@@ -35,7 +35,7 @@ bbox = mask_.getbbox()
 
 if bbox is not None:
     x1, y1, x2, y2 = bbox
-    img = cv.rectangle(img, (x1,y1), (x2,y2), (0, 0, 255), 5)
+    img = cv.rectangle(img, (x1,y1), (x2,y2), (0, 0, 255), 2)
 
 cv.imshow('Image', img)
 cv.waitKey(0)
