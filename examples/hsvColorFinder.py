@@ -26,7 +26,7 @@ if vid is True:
 
 while True:
     if vid is False:
-        img = cv2.imread("examples/images/rubberwhale.png")
+        img = cv2.imread("tugas/tugas1/tugas1.png")
     else:
         ret, img = cap.read()
 
